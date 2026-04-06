@@ -7,7 +7,7 @@ service postgresql start
 
 Then open the MSF Console:
 `check the status of the database.` 
-```
+```msf
 msf6> db_status
 ```
 
