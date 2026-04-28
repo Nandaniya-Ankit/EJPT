@@ -95,3 +95,17 @@ PASSWORD /usr/share/metasploit-framework/data/wordlists/unix_passwords.txt
 username /usr/share/metasploit-framework/data/wordlists/unix_users.txt
 
 ……………………………………………………………………………………………….
+
+To search a file: 
+```
+ search -d /usr/bin -f *backdoor*
+search -f *.jpg*
+```
+
+
+Priv exec windows
+```
+ps -S explorer.exe
+migrate <id>
+```
+
